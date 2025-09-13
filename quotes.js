@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const messages = [
   "🔥 The world belongs to those who code. Break the barriers, explore the unknown!",
   "💻 Curiosity is your superpower. Every bug is just a puzzle waiting to be solved.",
@@ -15,7 +13,7 @@ const messages = [
   "🔥 Debugging is like being a detective in a crime movie where you're also the murderer.",
   "⚔️ In the battle between you and the world, back yourself. Code conquers all.",
   "🌈 Elegant code is poetry. Ugly code still works. Ship it, then make it beautiful.",
-  "🎲 Random access memories, but systematic problem solving. Stay curious, stay hungry."
+  "🎲 Random access memories, but systematic problem solving. Stay curious, stay hungry.",
 ];
 
 function getRandomMessage() {
@@ -24,22 +22,22 @@ function getRandomMessage() {
 
 function displayMessage() {
   const message = getRandomMessage();
-  console.log('\n' + '='.repeat(80));
-  console.log('🎭 CHAOS HACK MESSAGE 🎭');
-  console.log('='.repeat(80));
+  console.log("\n" + "=".repeat(80));
+  console.log("🎭 CHAOS HACK MESSAGE 🎭");
+  console.log("=".repeat(80));
   console.log();
   console.log(message);
   console.log();
-  console.log('='.repeat(80));
-  console.log('Stay curious. Keep hacking. 🔥');
-  console.log('='.repeat(80) + '\n');
+  console.log("=".repeat(80));
+  console.log("Stay curious. Keep hacking. 🔥");
+  console.log("=".repeat(80) + "\n");
 }
 
 // Export functions for programmatic use
 module.exports = {
   getRandomMessage,
   displayMessage,
-  messages
+  messages,
 };
 
 // If run directly, display a message
