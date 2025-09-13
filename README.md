@@ -83,5 +83,4 @@ Created with ❤️ by **Francis Mule** - A playground for creative coding, expe
 
 ---
 
-*"In the matrix of possibilities, you are the architect of change."*</content>
-<parameter name="filePath">b:\Projects\experiments\README.md
+*"In the matrix of possibilities, you are the architect of change."
